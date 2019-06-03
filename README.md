@@ -15,27 +15,27 @@ SQLite 3.24.0
 ===========
 1. プロジェクトのクローン
 
-    git clone https://github.com/f81/intern2021_summer_HirakawaSuguru.git
+    `git clone https://github.com/f81/intern2021_summer_HirakawaSuguru.git`
 
 1. プロジェクトフォルダに移動
 
-    cd fringe_intern/
+    `cd fringe_intern/`
 
 1. モジュールのインストール
 
-    pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
 1. モデルのmigrate
 
-    python manage.py migrate
+    `python manage.py migrate`
 
-1. fringe_internフォルダ下に local_settings.py を作成
+1. fringe_internフォルダ下に `local_settings.py` を作成
 
-1. local_settings.py に `SECRET_KEY = '*******'`を追加(SECRET_KEYは作成者に聞いてください)
+1. `local_settings.py` に `SECRET_KEY = '*******'`を追加(SECRET_KEYは作成者に聞いてください)
 
 1. サーバー起動
 
-    python manage.py runserver
+    `python manage.py runserver`
 
 
 使い方
