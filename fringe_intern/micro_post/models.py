@@ -10,7 +10,7 @@ class User(models.Model):
         ordering = ('created_at',)
 
     def __str__(self):
-        return str(self.id)
+        return self.name
 
 class Post(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
